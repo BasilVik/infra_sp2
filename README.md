@@ -26,8 +26,3 @@
 4) Примените миграции $ docker-compose exec web python manage.py migrate
 5) Соберите статику $ docker-compose exec web python manage.py collectstatic --no-input
 6) Для доступа к админке не забудьте создать суперюзера $ docker-compose exec web python manage.py createsuperuser
-
-## Команда проекта:
-- [Вихляев Василий](https://github.com/BasilVik) - разработка части бэкэнда и API для регистрации и авторизации пользователей, контейнеризация.
-- Тимохина Дарья - разработка части бэкэнда и API для работы с категориями, жанрами и произведениями.
-- Россиин Никита - разработка части бэкэнда и API для работы с отзывами и комментариями.
